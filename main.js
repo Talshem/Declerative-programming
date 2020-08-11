@@ -66,6 +66,7 @@ const fifteen = (e) => {
   return e % 15 === 0;
 };
 
+const newArray3 = everyArray(array3, fifteen)
 
 // implement Array.prototype.flatFilter()
 
@@ -144,7 +145,6 @@ return arr;
 
 
 const newArray6 = insertSort(array6)
-
 
 
 
